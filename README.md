@@ -34,15 +34,24 @@ The dataset consists of the following attributes:
 The project involves building classification models to predict wine quality based on these attributes. The dataset presents a challenging task due to its imbalanced and relatively small sample size.
 
 
-
 In the dataset, each column represents a specific attribute related to wine quality. The values in these columns have no missing data, with no null values present (0 missing values) in any of the attributes. This clean dataset is ready for analysis and modeling.
 
 Due to the absence of missing data in the dataset's attributes, we have skipped the following steps:
 
-  
 
+    Data Imputation: There was no need to fill or impute missing values since all columns are complete, saving time and complexity in data preprocessing.
+    
     Missing Data Analysis: The step of analyzing patterns or causes of missing data was unnecessary, as the dataset was devoid of any missing values.
 
     Handling Missing Values: With no null values to address, there was no requirement for strategies such as imputation, removal of incomplete rows, or advanced techniques to manage missing data.
 
+Here i have performed 4 model on this data set. 
+1. Logistic Regression
+2. DecisionTree Classifier
+3. SVC
+4. RandomForest Classifier
 
+![image](https://github.com/mesba-islam/WineQualityPrediction/assets/82472635/b4922d90-8742-4c26-8255-543797759e03)
+
+
+after evaluating several regression models on the Wine Quality dataset, i have determined the best model is Random Forest Classifier.
